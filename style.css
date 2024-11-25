@@ -1,0 +1,97 @@
+/*table styles*/
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+}
+  
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/*html font*/
+body {
+  font-family: cursive;
+  /*background color, but gradient*/
+  /*background: linear-gradient(to bottom, #feac5e, #c779d0, #4bc0c8) ; */
+}
+
+h1, h3{
+  text-align: center;
+}
+
+
+
+/*table border format*/
+table {
+  border-collapse: collapse;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  width: 70%;
+  margin: auto;
+}
+td,
+th {
+  border: 1px solid black;
+  padding: 10px 20px;
+  
+}
+ /*text center*/
+tbody td{
+  text-align: center;
+}
+
+th {
+  background-color: cornflowerblue;
+}
+
+/*cell-colors*/
+.orange{
+  background-color: coral;
+}
+.grey{
+  background-color: grey;
+}
+.gris{
+  background-color: #c8c9c9;
+}
+.yellow{
+  background-color:  #eae49e ;
+}
+.white{
+  background-color: white;
+}
+.blue{
+  background-color:  #23bae7 ;
+}
+.nr{
+  background-color:  #f4a82b ;
+}
+.purple{
+  background-color:  #de80e5 ;
+}
+
+/*pseudo-classes*/
+
+table th tr:first-child {
+  background-color: cornflowerblue;
+}
+
+/*Segunda tabla*/
+table:nth-of-type(2) tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+/* Estilo para las filas pares de la segunda tabla */
+table:nth-of-type(2) tbody tr:nth-child(even) {
+  background-color: grey;
+}
+table {
+  margin: 20px auto; /* Espacio de 20px arriba y abajo, y centrado horizontalmente */
+}
+
+th, td {
+  padding: 10px; /* Espacio de 10px dentro de las celdas */
+}
